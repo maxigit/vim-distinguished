@@ -31,7 +31,7 @@
 "        | Highlight group                |    FG |    BG |      Attributes |
 "        |--------------------------------|-------|-------|-----------------|
 call s:ColorDictParser({
-	\   'Normal'                      : [    230, 'none',           'none']
+	\   'Normal'                      : [    145, 'none',           'none']
 	\ , 'Visual'                      : [ 'none',    12,           'none']
 	\
 	\ , 'CursorLine'                  : [    'darkgreen', 233,     'underline']
@@ -78,7 +78,7 @@ call s:ColorDictParser({
 	\ , 'Statement'                   : [    186, 'none',           'bold']
 	\ , 'PreProc'                     : [    144, 'none',           'none']
 	\ , 'Type'                        : [     67, 'none',           'bold']
-	\ , 'String'                      : [    143,    237,           'none']
+	\ , 'String'                      : [    143,    234,           'none']
 	\ , 'Number'                      : [    173, 'none',           'none']
 	\ , 'Define'                      : [    173, 'none',           'none']
 	\ , 'Error'                       : [    208,    124,           'none']
